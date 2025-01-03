@@ -15,7 +15,7 @@ def load_model():
 # Load confusion set
 @st.cache_data
 def load_confusion_set():
-    with open("confusion_set.json", "r", encoding="utf-8") as f:
+    with open("confusion_set_test.json", "r", encoding="utf-8") as f:
         return json.load(f)
 
 # Tokenize sentence

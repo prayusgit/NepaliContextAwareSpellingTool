@@ -5,6 +5,14 @@
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
 
+# custom
+###############
+dataset_main.csv
+clean_date_categories.csv
+
+
+
+#################
 .idea
 
 .ipynb_checkpoints

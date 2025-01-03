@@ -27,10 +27,7 @@ def speech_to_text():
 
 
 def main():
-    st.title("Nepali Spell Checker with Speech-to-Text")
-    st.write("Choose the mode to check spelling errors or input Nepali text.")
 
-    # Sidebar for mode selection
     mode = st.sidebar.selectbox("Select Mode", ("Sentence", "Paragraph", "Speech-to-Text"))
 
     if mode == "Sentence":
